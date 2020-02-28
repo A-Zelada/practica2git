@@ -9,14 +9,14 @@ public class interfaz {
 		float base = 0;
 		System.out.println("Facturas:");
 		System.out.println("Nueva factura:");
-		System.out.print("Introducir Base: ");
-		base = (float)14.55
-//				input.nextFloat()
+		System.out.print("Introducir Base: ");//
+		base = (float)
+				input.nextFloat()
 				;
 		System.out.print("Introducir IVA: ");
 		factura.setCantidadIva(
-				(float)1.45
-				//input.nextFloat()
+				(float)
+				input.nextFloat()
 				);
 		
 		factura.setTotal(base + base*factura.getCantidadIva()/100 );
