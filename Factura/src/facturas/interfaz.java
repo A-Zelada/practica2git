@@ -1,4 +1,4 @@
-package facturas;
+package Factura.src.facturas;
 
 import java.util.Scanner;
 

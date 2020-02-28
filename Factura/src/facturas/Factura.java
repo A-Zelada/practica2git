@@ -1,4 +1,4 @@
-package facturas;
+package Factura.src.facturas;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class Factura
 	public float base;
 	public float tipoIva;
 	protected IFactura estado;
+	
 
 	public static void main(String[] args)
 	{
@@ -29,10 +30,13 @@ public class Factura
 		factura.setTotal(base + base*factura.getCantidadIva()/100 );
 
 		System.out.println(factura.toString());
-
+		
+		System.out.println(factura.getTotal());
+		System.out.println(factura.getCantidadIva());
+		
 		input.close();
 	}
-
+	
 	public int getNum() 
 	{
 		return num;
