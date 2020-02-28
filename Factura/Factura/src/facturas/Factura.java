@@ -9,7 +9,7 @@ public class Factura
 	public float tipoIva;
 	protected Estados estado;
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
 		IFactura factura = new IFactura();
