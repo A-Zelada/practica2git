@@ -2,7 +2,7 @@ package facturas;
 
 import java.util.Scanner;
 
-public class Factura 
+public class Factura
 {
 	public int num;
 	public float base;
