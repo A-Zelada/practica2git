@@ -1,12 +1,8 @@
+package facturas;
 
-public class Factura 
-{
+import java.util.Scanner;
 
-	public int num;
-	public float base;
-	public float tipoIva;
-	//public Estados estado;
-
+public class interfaz {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		IFactura factura = new IFactura();
@@ -30,32 +26,4 @@ public class Factura
 		input.close();
 	}
 
-	public int getNum() 
-	{
-		return num;
-	}
-
-	public void setNum(int num) 
-	{
-		this.num = num;
-	}
-
-	public float getBase() {
-		return base;
-	}
-
-	public void setBase(float base) 
-	{
-		this.base = base;
-	}
-
-	public float getTipoIva() 
-	{
-		return tipoIva;
-	}
-
-	public void setTipoIva(float tipoIva) 
-	{
-		this.tipoIva = tipoIva;
-	}
 }
