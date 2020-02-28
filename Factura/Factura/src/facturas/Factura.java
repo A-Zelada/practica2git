@@ -7,7 +7,7 @@ public class Factura
 	public int num;
 	public float base;
 	public float tipoIva;
-	protected Estados estado;
+	protected IFactura estado;
 
 	public static void main(String[] args)
 	{
@@ -62,12 +62,12 @@ public class Factura
 		this.tipoIva = tipoIva;
 	}
 
-	public Estados getEstado() 
+	public IFactura getEstado() 
 	{
 		return estado;
 	}
 
-	public void setEstado(Estados estado) 
+	public void setEstado(IFactura estado) 
 	{
 		this.estado = estado;
 	}
